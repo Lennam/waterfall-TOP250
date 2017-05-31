@@ -1,0 +1,32 @@
+#content{
+	column-width: 315px;
+}
+
+.box {
+	width: 300px;
+	height: auto;
+	border: solid 1px #CCC;
+	border-radius: 5px;
+	float: left;
+	box-shadow: 0 0 5px #CCC;
+	padding: 10px;
+	margin:10px 0 10px 10px;
+	text-align: center;
+	}
+
+#wait {
+	position: fixed;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 45%;
+	width: 350px;
+	height: 50px;
+	background: #EAEAEA;
+	border: solid 1px #CCC;
+	border-radius: 5px;
+	z-index: 999;
+	text-align: center;
+	vertical-align: middle;
+	display: none;
+}
